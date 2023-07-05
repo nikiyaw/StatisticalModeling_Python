@@ -1,4 +1,4 @@
-# Final-Project-Statistical-Modelling-with-Python
+Statistical-Modelling-with-Python
 
 ## Project/Goals
 
@@ -33,6 +33,7 @@ Building a model
 2. Compare the results from both apps using a t-test. 
 3. Interpret the findings. 
 
+
 ## Results
 
 From the 2 simple linear regression models we have built (totalBikeSlots vs. F_numberOfCafes & totalBikeSlots vs. Y_numberOfCafes), the results are as follows:
@@ -44,6 +45,7 @@ totalBikeSlots vs. Y_numberOfCafes
 The model is capable of explaining only 45.9% of the patterns in the data. The p-value is 0.001, which means that the F_numberOfCafes does impact the totalBikeSlots. The coefficient value of 0.8753 shows that the increase of F_numberOfCafes will have a positive impact on the totalBikeSlots.
 
 Since we are obtaining data from two different sources (Foursquare, Yelp), we can conduct a t-test to investigate if the results are similar. There was a warning message that popped out, sayint that there is precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical.
+
 
 ## Challenges 
 1. Fairly small data sample is obtained
